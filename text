@@ -1,0 +1,5 @@
+News.objects.create(title='News 5', content='News content 5')
+News.objects.get(pk=3)
+News
+News.objects.order_by('-title')
+News.objects.exclude('-title')
